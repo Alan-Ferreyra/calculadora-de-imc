@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+:root {
+  --primary-color: rgb(22, 80, 134);
+  --primary-color-darker: rgb(22, 10, 134);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  background: url(backgroundfruta.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: var(--primary-color-darker);
+}
+
+.resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: var(--primary-color); */
+  /* color: white; */
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.resultadoMuitoGrave {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9e0000;
+  color: white;
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.resultadoGrave {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  color: black;
+  font-size: 25px;
+  padding: 0 20px;
+}
+.resultadoModerado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: orange;
+  color: black;
+  font-size: 25px;
+  padding: 0 20px;
+}
+.resultadoAumentado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: yellow;
+  color: black;
+  font-size: 25px;
+  padding: 0 20px;
+}
+.resultadoNormal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: green;
+  color: white;
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.resultadoBaixo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9bc1e6;
+  color: black;
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
