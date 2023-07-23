@@ -16,7 +16,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
-  background: url(/assets/img/backgroundfruta.png);
+  background: url(backgroundfruta.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
