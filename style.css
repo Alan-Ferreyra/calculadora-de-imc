@@ -1,24 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 
-.banner {
-  background: #1c1c1c;
-  border-bottom: 1px solid #2a2a2a;
-  padding: 10px 20px;
-  margin-bottom: 15px;
-  font-size: 13px;
-  color: #888;
-  text-align: center;
-}
-
-.banner a {
-  color: #378ADD;
-  text-decoration: none;
-  margin: 0 4px;
-}
-
-.banner a:hover {
-  color: #85B7EB;
-}
 
 :root {
   --primary: #378ADD;
@@ -188,10 +169,9 @@ h1 {
 }
 
 .resultado {
-  display: none;
   border-radius: var(--radius-md);
-  padding: 1rem 1.25rem;
   margin-bottom: 0.5rem;
+  min-height: 0;
 }
 
 .resultado.show {
@@ -307,3 +287,45 @@ h1 {
   .card { padding: 1.5rem; }
   .form-section { grid-template-columns: 1fr; }
 }
+
+.banner {
+  background: #1c1c1c;
+  border-bottom: 1px solid #2a2a2a;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  color: #888;
+  text-align: center;
+}
+
+.banner a {
+  color: #378ADD;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.banner a:hover {
+  color: #85B7EB;
+}
+
+.resultadoBaixo,
+.resultadoNormal,
+.resultadoAumentado,
+.resultadoModerado,
+.resultadoGrave,
+.resultadoMuitoGrave {
+  display: block;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+  color: inherit;
+}
+
+.resultadoBaixo      { background: #0C2A45; color: #85B7EB; }
+.resultadoNormal     { background: #0F2A0A; color: #97C459; }
+.resultadoAumentado  { background: #2E1E04; color: #FAC775; }
+.resultadoModerado   { background: #2D0A0A; color: #F09595; }
+.resultadoGrave      { background: #3A0808; color: #F7C1C1; }
+.resultadoMuitoGrave { background: #4A0505; color: #FCEBEB; }
